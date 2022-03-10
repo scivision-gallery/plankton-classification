@@ -1,0 +1,20 @@
+name: plankton-classification-scivision
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - fsspec
+  - pyyaml
+  - requests
+  - aiohttp
+  - intake
+  - intake-xarray
+  - exifread
+  - scikit-image
+  - pip:
+        - git+https://github.com/alan-turing-institute/scivision.git
+        - git+https://github.com/ots22/intake-xarray@feature/exi
