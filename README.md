@@ -1,4 +1,4 @@
-# Classification of plankton images using ResNet-50 CEFAS DSG model
+# Plankton Images Classification
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scivision-gallery/plankton-classification.git/HEAD?labpath=plankton_classification_cefas.ipynb)
 
@@ -7,7 +7,7 @@ Plankton plays an essential role in the global carbon cycle and carbon sequestra
 
 As part of a Data Study Group (DSG) challenge organised between the Alan Turing Institute, the Centre for Environment, Fisheries and Aquaculture Science (CEFAS) and Plankton Analytics Ltd (see [here](https://www.turing.ac.uk/events/data-study-group-november-2021)), the participants contributed in the use of pretrained Convolutional Neural Networks (CNNs) with a ResNet-50 architecture to improve the accuracy of plankton classification at finer taxonomic levels compared to a baseline Random Forest.
 
-In this notebook, we demonstrate how `scivision` facilitates the discovery of one of the trained ResNet-50 CEFAS DSG models for classifying plankton images into three classes: copepod, non-copepod and detritus. We pair the model with one of the matched data sources from `scivision data catalog`, in this case a relatively small sample of images (n=25) extracted from the full test set (N=5863) of plankton images used in the DSG challenge.
+In this notebook, we demonstrate how `scivision` facilitates the discovery of one of the trained ResNet-50 CEFAS DSG models for classifying plankton images into three classes: copepod, non-copepod and detritus. We pair the model with one of the matched data sources from the scivision data catalog, in this case a relatively small sample of images (n=25) extracted from the full test set (N=5863) used during the DSG challenge.
 
 ## How to run
 
@@ -24,4 +24,4 @@ You may also download the notebook from GitHub to run it locally:
 * Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
 
 ## Acknowledgment 
-This notebook was supported by the outcomes of the [CEFAS DSG challenge in November 2021](https://www.turing.ac.uk/events/data-study-group-november-2021). The scivision team thanks the individuals and institutions involved in the Plankton DSG, in particular the Centre for Environment, Fisheries and Aquaculture Science (CEFAS) for providing one of the trained models and sample images used in this notebook.
+This notebook was supported by the outcomes of the [CEFAS DSG challenge in November 2021](https://www.turing.ac.uk/events/data-study-group-november-2021). The scivision team thanks the individuals and institutions involved in the Plankton DSG, in particular CEFAS for providing one of the trained models and sample images used in this notebook.
