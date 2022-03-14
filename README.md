@@ -7,7 +7,7 @@ Plankton plays an essential role in the global carbon cycle and carbon sequestra
 
 As part of a Data Study Group (DSG) challenge organised between the Alan Turing Institute, the Centre for Environment, Fisheries and Aquaculture Science (CEFAS) and Plankton Analytics Ltd (see [here](https://www.turing.ac.uk/events/data-study-group-november-2021)), the participants contributed in the use of pretrained Convolutional Neural Networks (CNNs) with a ResNet-50 architecture to improve the accuracy of plankton classification at finer taxonomic levels compared to a baseline Random Forest.
 
-In this notebook, we demonstrate how `scivision` facilitates the discovery of one of the trained ResNet-50 CEFAS DSG models for classifying plankton images into three classes: copepod, non-copepod and detritus. We pair the model with one of the matched data sources from the scivision data catalog, in this case a relatively small sample of images (n=25) extracted from the full test set (N=5863) used during the DSG challenge.
+In this notebook, we demonstrate how `scivision` facilitates the discovery of one of the trained ResNet-50 CEFAS DSG models for classifying plankton images into three classes: copepod, non-copepod and detritus. We pair the model with one of the matched data sources from the scivision data catalog, in this case a relatively small sample of images (n=26) extracted from the full test set (N=5863) used during the DSG challenge.
 
 ## How to run
 
