@@ -1,6 +1,6 @@
 # Plankton Images Classification
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scivision-gallery/plankton-classification.git/HEAD?labpath=plankton_classification_cefas.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scivision-gallery/plankton-classification.git/main?labpath=plankton_classification_cefas.ipynb)
 
 ## Abstract
 Plankton plays an essential role in the global carbon cycle and carbon sequestration, regulating the exchange of carbon dioxide between the atmosphere, surface ocean and ultimately the seabed. Plankton is also used in global monitoring efforts providing reliable and sensitive indicators to climate change and ecosystem health.
