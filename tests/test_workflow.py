@@ -1,7 +1,4 @@
 import pytest
-import os
-
-os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 def test_workflow():
     from scivision import default_catalog, load_pretrained_model, load_dataset
