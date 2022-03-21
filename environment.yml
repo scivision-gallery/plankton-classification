@@ -16,6 +16,7 @@ dependencies:
   - intake-xarray
   - exifread
   - scikit-image
+  - pip
   - pip:
         - git+https://github.com/alan-turing-institute/scivision.git
         - git+https://github.com/ots22/intake-xarray@feature/exif
