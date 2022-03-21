@@ -17,7 +17,7 @@ jobs:
         with:
           auto-update-conda: true
           python-version: 3.7
-          activate-environment: coastalvegedge-detection-scivision
+          activate-environment: plankton-classification-scivision
           environment-file: environment.yml
       - name: Test with pytest
         shell: bash -l {0}
