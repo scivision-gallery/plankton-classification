@@ -11,17 +11,18 @@
     </a>
     <a href="https://github.com/scivision-gallery/plankton-classification/workflows/ci/badge.svg">
         <img alt="Continuous integration badge" src="https://github.com/scivision-gallery/plankton-classification/workflows/ci/badge.svg">
+    </a>
     <br/>
 </p>
 
 <p align="center">
   <img src="https://github.com/scivision-gallery/plankton-classification/blob/main/figs/plankton_prediction_example.png?raw=true" 
-        alt="Images classification in three classes: copepod, non-copepod and detritus" width="60%" align="center">
+        alt="Images classification in three classes: copepod, non-copepod and detritus" width="90%" align="center">
 </p>
 
 <p align="center">
     <em>
-    Classification of sample images collected by CEFAS Plankton Imager. Three classes: copepod, non-copepod and detritus. 
+    Automated classification of sample images collected by CEFAS Plankton Imager. Three classes: copepod, non-copepod and detritus. 
     </em>
 </p>
 
