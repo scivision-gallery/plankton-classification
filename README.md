@@ -1,6 +1,19 @@
-# Plankton Images Classification
+<div align="center">
+    <h1>Plankton Images Classification</h1>
+</div>
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scivision-gallery/plankton-classification.git/main?labpath=plankton_classification_cefas.ipynb)
+<p align="center">
+    <a href="https://github.com/scivision-gallery/plankton-classification/blob/main/LICENSE">
+        <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    </a>
+    <a href="https://mybinder.org/v2/gh/scivision-gallery/plankton-classification.git/main?labpath=plankton_classification_cefas.ipynb">
+        <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
+    </a>
+    <a href="https://github.com/scivision-gallery/plankton-classification/workflows/ci/badge.svg">
+        <img alt="Continuous integration badge" src="https://github.com/scivision-gallery/plankton-classification/workflows/ci/badge.svg">
+    </a>
+    <br/>
+</p>
 
 ## Abstract
 Plankton plays an essential role in the global carbon cycle and carbon sequestration, regulating the exchange of carbon dioxide between the atmosphere, surface ocean and ultimately the seabed. Plankton is also used in global monitoring efforts providing reliable and sensitive indicators to climate change and ecosystem health.
