@@ -29,7 +29,7 @@
 ## Abstract
 Plankton plays an essential role in the global carbon cycle and carbon sequestration, regulating the exchange of carbon dioxide between the atmosphere, surface ocean and ultimately the seabed. Plankton is also used in global monitoring efforts providing reliable and sensitive indicators to climate change and ecosystem health.
 
-As part of a Data Study Group (DSG) challenge organised between the Alan Turing Institute, the Centre for Environment, Fisheries and Aquaculture Science (CEFAS) and Plankton Analytics Ltd (see [here](https://www.turing.ac.uk/events/data-study-group-november-2021)), the participants contributed in the use of pretrained Convolutional Neural Networks (CNNs) with a ResNet-50 architecture to improve the accuracy of plankton classification at finer taxonomic levels compared to a baseline Random Forest.
+As part of a Data Study Group (DSG) challenge organised between the Alan Turing Institute, the Centre for Environment, Fisheries and Aquaculture Science (CEFAS) and Plankton Analytics Ltd (see [here](https://www.turing.ac.uk/events/data-study-group-november-2021)), the participants contributed in the use of pretrained Convolutional Neural Networks (CNNs) with a ResNet-50 architecture to improve the accuracy of plankton classification at finer taxonomic levels compared to a baseline Random Forest (see the full report [here](https://www.turing.ac.uk/research/publications/data-study-group-final-report-centre-environment-fisheries-and-aquaculture)).
 
 In this notebook, we demonstrate how `scivision` facilitates the discovery of one of the trained ResNet-50 CEFAS DSG models for classifying plankton images into three classes: copepod, non-copepod and detritus. We pair the model with one of the matched data sources from the scivision data catalog, in this case a relatively small sample of images (n=26) extracted from the full test set (N=5863) used during the DSG challenge.
 
@@ -49,3 +49,6 @@ You may also download the notebook from GitHub to run it locally:
 
 ## Acknowledgment 
 This notebook was supported by the outcomes of the [CEFAS DSG challenge in November 2021](https://www.turing.ac.uk/events/data-study-group-november-2021). The scivision team thanks the individuals and institutions involved in the Plankton DSG, in particular CEFAS for providing one of the trained models and sample images used in this notebook.
+
+## Resources
+[Data Study Group Final Report: Centre for Environment, Fisheries and Aquaculture Science (Cefas)](https://www.turing.ac.uk/research/publications/data-study-group-final-report-centre-environment-fisheries-and-aquaculture).
