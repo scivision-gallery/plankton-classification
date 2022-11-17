@@ -3,7 +3,7 @@ import pytest
 def test_workflow():
     from scivision import default_catalog, load_pretrained_model, load_dataset
 
-    model_name = 'resnet50-plantkton'
+    model_name = 'resnet50-plankton'
     compatible_datasources = default_catalog.compatible_datasources(model_name).to_dataframe()
 
     models = default_catalog.models.to_dataframe()
