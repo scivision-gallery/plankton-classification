@@ -41,9 +41,9 @@ The notebook is designed to be launched from Binder.
 You may also download the notebook from GitHub to run it locally:
 * Open your terminal
 * Check your conda install with `conda --version`. If you don't have conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html))
-* Clone the repository, `https://github.com/scivision-gallery/plankton-classification.git` 
+* Clone the repository into your current folder: `git clone https://github.com/scivision-gallery/plankton-classification.git` 
 * Move into the cloned repository, `cd plankton-classification`
-* Install the dependencies, `conda env create -f environment.yml`
+* Install the dependencies, in a new environment: `conda env create -f environment.yml`
 * Activate the installed environment, `conda activate plankton-classification-scivision`
 * Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
 
