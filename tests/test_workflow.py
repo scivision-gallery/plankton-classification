@@ -10,7 +10,7 @@ def test_workflow():
     targetmodel = models[models.name == model_name].url.item()
     model = load_pretrained_model(targetmodel, allow_install=True)
 
-    target_datasource = compatible_datasources.loc[compatible_datasources['name'] == 'data-004']
+    target_datasource = compatible_datasources.loc[compatible_datasources['name'] == 'cefas-plankton']
     cat = load_dataset(target_datasource.url.item())
     dataset = cat.plankton().to_dask()
 
