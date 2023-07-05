@@ -3,20 +3,22 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - jupyter
-  - matplotlib
-  - numpy
-  - scipy
-  - pandas
-  - fsspec
-  - pyyaml
-  - requests
-  - aiohttp
-  - intake
-  - intake-xarray
-  - exifread
-  - scikit-image
-  - pip
-  - intake-xarray
+  - aiohttp=3.8.3
+  - exifread=3.0.0
+  - fsspec=2023.1.0
+  - intake=0.6.6
+  - intake-xarray=0.6.1
+  - jupyter=1.0.0
+  - matplotlib=3.6.3
+  - numpy=1.24.2
+  - pandas=1.5.3
+  - pip=23.0
+  - pyyaml=6.0
+  - requests=2.28.2
+  - scikit-image=0.19.3
+  - scipy=1.10.0
   - pip:
-        - git+https://github.com/alan-turing-institute/scivision.git
+    - git+https://github.com/alan-turing-institute/scivision/
+
+
+     
