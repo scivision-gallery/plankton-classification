@@ -298,5 +298,5 @@ dependencies:
       - pydantic==1.10.11
       - torch==1.10.0
       - torchvision==0.11.1
-      - git+https://github.com/alan-turing-institute/scivision/
+      - scivision==0.7.0
 
